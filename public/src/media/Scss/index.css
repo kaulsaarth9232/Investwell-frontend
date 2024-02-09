@@ -1,0 +1,145 @@
+.loginform {
+  margin-left: 40vw;
+}
+.loginform .topLogin {
+  margin-left: -45vw;
+}
+.loginform .main-div {
+  box-shadow: 10px 10px 5px rgb(85, 87, 88);
+  width: 30vw;
+  height: 25vh;
+  margin-left: -10vw;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.loginform .main-div .loginButton {
+  border-radius: 4px;
+  margin-top: 5vh;
+}
+.loginform .main-div .emailInput {
+  height: 3vh;
+  border-radius: 4px;
+  margin-left: 1vw;
+  margin-top: 3vh;
+}
+.loginform .main-div .passwordInput {
+  height: 3vh;
+  border-radius: 4px;
+  margin-left: 1vw;
+  margin-top: 4vh;
+}
+.loginform .navigateRegister {
+  margin-top: -6vh;
+  margin-left: -33vw;
+}
+
+.signupForm {
+  margin-left: 40vw;
+  margin-top: 25vh;
+}
+.signupForm .topSignup {
+  margin-left: -45vw;
+}
+.signupForm .main-div {
+  box-shadow: 10px 10px 5px rgb(85, 87, 88);
+  width: 30vw;
+  height: 25vh;
+  margin-left: -10vw;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+@media screen and (max-width: 480px) {
+  .signupForm .main-div {
+    width: 50vw;
+  }
+}
+.signupForm .main-div .nameInput {
+  margin-left: 1vw;
+  margin-top: 3vh;
+}
+.signupForm .main-div .loginButton {
+  margin-top: 4vh;
+}
+.signupForm .main-div .emailInput {
+  margin-left: 1vw;
+  margin-top: 3vh;
+}
+.signupForm .main-div .passwordInput {
+  margin-left: 1vw;
+  margin-top: 3vh;
+}
+.signupForm .loginNavigate {
+  margin-top: -4vh;
+  margin-left: -30vw;
+}
+
+.Answer {
+  min-width: 250px;
+  margin-left: 30vw;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 5vh;
+  font-size: 17px;
+}
+
+.toastbody {
+  min-width: 250px;
+  margin-left: 30vw;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 5vh;
+  font-size: 17px;
+}
+
+@-webkit-keyframes fadein {
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+  to {
+    bottom: 30px;
+    opacity: 1;
+  }
+}
+@keyframes fadein {
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+  to {
+    bottom: 30px;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeout {
+  from {
+    bottom: 30px;
+    opacity: 1;
+  }
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
+}
+@keyframes fadeout {
+  from {
+    bottom: 30px;
+    opacity: 1;
+  }
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
+}/*# sourceMappingURL=index.css.map */

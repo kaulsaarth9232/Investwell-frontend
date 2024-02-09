@@ -1,0 +1,231 @@
+.loginform {
+  margin-left: 40vw;
+  margin-top: 25vh;
+}
+.loginform .topLogin {
+  margin-left: -45vw;
+}
+@media screen and (max-width: 430px) {
+  .loginform .topLogin {
+    font-size: medium;
+  }
+}
+.loginform .main-div {
+  box-shadow: 10px 10px 5px rgb(85, 87, 88);
+  width: 30vw;
+  height: 25vh;
+  margin-left: -10vw;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.loginform .main-div .labelEmail {
+  margin-left: 1vw;
+}
+@media screen and (max-width: 430px) {
+  .loginform .main-div .labelEmail {
+    font-size: small;
+  }
+}
+.loginform .main-div .labelPassword {
+  margin-left: -1vw;
+}
+@media screen and (max-width: 430px) {
+  .loginform .main-div .labelPassword {
+    font-size: small;
+    margin-top: 2vh;
+    margin-left: 1vw;
+  }
+}
+.loginform .main-div .loginButton {
+  border-radius: 4px;
+  margin-top: 5vh;
+}
+@media screen and (max-width: 430px) {
+  .loginform .main-div .loginButton {
+    margin-top: 8vh;
+    margin-left: 2vw;
+  }
+}
+.loginform .main-div .emailInput {
+  height: 3vh;
+  border-radius: 4px;
+  margin-top: 3vh;
+  margin-left: 9vw;
+}
+@media screen and (max-width: 430px) {
+  .loginform .main-div .emailInput {
+    margin-top: 1vh;
+    height: 2vh;
+    width: 25vw;
+  }
+}
+.loginform .main-div .passwordInput {
+  height: 3vh;
+  border-radius: 4px;
+  margin-left: 8vw;
+  margin-top: 4vh;
+}
+@media screen and (max-width: 430px) {
+  .loginform .main-div .passwordInput {
+    margin-top: 1vh;
+    height: 2vh;
+    width: 25vw;
+    margin-left: 2vw;
+  }
+}
+@media screen and (max-width: 430px) {
+  .loginform .main-div {
+    width: 50vw;
+    height: 30vh;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .loginform .main-div {
+    width: 50vw;
+    height: 30vh;
+  }
+}
+.loginform .navigateRegister {
+  margin-top: -6vh;
+  margin-left: -33vw;
+}
+
+.signupForm {
+  margin-left: 40vw;
+  margin-top: 25vh;
+}
+.signupForm .topSignup {
+  margin-left: -45vw;
+}
+@media screen and (max-width: 430px) {
+  .signupForm .topSignup {
+    font-size: medium;
+  }
+}
+.signupForm .main-div {
+  box-shadow: 10px 10px 5px rgb(85, 87, 88);
+  width: 30vw;
+  height: 25vh;
+  margin-left: -10vw;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+@media screen and (max-width: 480px) {
+  .signupForm .main-div {
+    width: 50vw;
+  }
+}
+@media screen and (max-width: 430px) {
+  .signupForm .main-div .signupName {
+    font-size: small;
+  }
+}
+@media screen and (max-width: 430px) {
+  .signupForm .main-div .signupEmail {
+    font-size: small;
+  }
+}
+@media screen and (max-width: 430px) {
+  .signupForm .main-div .signupPassword {
+    font-size: small;
+    margin-top: 2vh;
+    margin-left: 1vw;
+  }
+}
+.signupForm .main-div .nameInput {
+  margin-left: 1vw;
+  margin-top: 3vh;
+}
+@media screen and (max-width: 430px) {
+  .signupForm .main-div .nameInput {
+    margin-top: 1vh;
+    height: 2vh;
+    width: 25vw;
+  }
+}
+.signupForm .main-div .loginButton {
+  margin-top: 4vh;
+}
+.signupForm .main-div .emailInput {
+  margin-left: 1vw;
+  margin-top: 3vh;
+}
+@media screen and (max-width: 430px) {
+  .signupForm .main-div .emailInput {
+    margin-top: 1vh;
+    height: 2vh;
+    width: 25vw;
+  }
+}
+.signupForm .main-div .passwordInput {
+  margin-left: 1vw;
+  margin-top: 3vh;
+}
+@media screen and (max-width: 430px) {
+  .signupForm .main-div .passwordInput {
+    margin-top: 1vh;
+    height: 2vh;
+    width: 25vw;
+    margin-left: 2vw;
+  }
+}
+@media screen and (max-width: 430px) {
+  .signupForm .main-div {
+    width: 50vw;
+    height: 30vh;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .signupForm .main-div {
+    width: 50vw;
+    height: 30vh;
+  }
+}
+.signupForm .loginNavigate {
+  margin-top: -4vh;
+  margin-left: -30vw;
+}
+
+.Answer {
+  min-width: 250px;
+  margin-left: 30vw;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 5vh;
+  font-size: 17px;
+}
+
+.toastbody {
+  min-width: 250px;
+  margin-left: 30vw;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 5vh;
+  font-size: 17px;
+}
+
+.content {
+  margin-top: -5vh;
+  margin-left: -5vw;
+}
+
+.getdatabtn {
+  border-radius: 5px;
+  background-color: #333;
+  color: aliceblue;
+  font-size: larger;
+  margin-top: 5vh;
+  margin-left: 90vw;
+}/*# sourceMappingURL=index.css.map */
