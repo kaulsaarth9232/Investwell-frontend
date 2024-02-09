@@ -1,7 +1,12 @@
 .loginform {
     margin-left: 40vw;
+    margin-top: 25vh;
 
     .topLogin {
+        @media screen and (max-width: 430px) {
+            font-size: medium;
+        }
+
         margin-left: -45vw;
     }
 
@@ -13,7 +18,31 @@
         border: 1px solid black;
         border-radius: 10px;
 
+        .labelEmail {
+            margin-left: 1vw;
+
+            @media screen and (max-width: 430px) {
+                font-size: small;
+            }
+        }
+
+        .labelPassword {
+            margin-left: -1vw;
+
+            @media screen and (max-width: 430px) {
+                font-size: small;
+
+                margin-top: 2vh;
+                margin-left: 1vw;
+            }
+        }
+
         .loginButton {
+            @media screen and (max-width: 430px) {
+                margin-top: 8vh;
+                margin-left: 2vw;
+            }
+
             border-radius: 4px;
             margin-top: 5vh
         }
@@ -21,15 +50,38 @@
         .emailInput {
             height: 3vh;
             border-radius: 4px;
-            margin-left: 1vw;
-            margin-top: 3vh
+            margin-top: 3vh;
+            margin-left: 9vw;
+
+            @media screen and (max-width: 430px) {
+                margin-top: 1vh;
+                height: 2vh;
+                width: 25vw;
+            }
         }
 
         .passwordInput {
             height: 3vh;
             border-radius: 4px;
-            margin-left: 1vw;
-            margin-top: 4vh
+            margin-left: 8vw;
+            margin-top: 4vh;
+
+            @media screen and (max-width: 430px) {
+                margin-top: 1vh;
+                height: 2vh;
+                width: 25vw;
+                margin-left: 2vw;
+            }
+        }
+
+        @media screen and (max-width: 430px) {
+            width: 50vw;
+            height: 30vh;
+        }
+
+        @media screen and (max-width: 1024px) {
+            width: 50vw;
+            height: 30vh;
         }
     }
 
@@ -37,6 +89,7 @@
         margin-top: -6vh;
         margin-left: -33vw;
     }
+
 }
 
 .signupForm {
@@ -45,6 +98,10 @@
 
     .topSignup {
         margin-left: -45vw;
+
+        @media screen and (max-width: 430px) {
+            font-size: medium;
+        }
     }
 
     .main-div {
@@ -59,9 +116,36 @@
             width: 50vw;
         }
 
+        .signupName {
+            @media screen and (max-width: 430px) {
+                font-size: small;
+            }
+        }
+
+        .signupEmail {
+            @media screen and (max-width: 430px) {
+                font-size: small;
+            }
+        }
+
+        .signupPassword {
+
+            @media screen and (max-width: 430px) {
+                font-size: small;
+                margin-top: 2vh;
+                margin-left: 1vw;
+            }
+        }
+
         .nameInput {
             margin-left: 1vw;
             margin-top: 3vh;
+
+            @media screen and (max-width: 430px) {
+                margin-top: 1vh;
+                height: 2vh;
+                width: 25vw;
+            }
         }
 
         .loginButton {
@@ -70,12 +154,37 @@
 
         .emailInput {
             margin-left: 1vw;
-            margin-top: 3vh
+            margin-top: 3vh;
+
+            @media screen and (max-width: 430px) {
+                margin-top: 1vh;
+                height: 2vh;
+                width: 25vw;
+            }
+
         }
 
         .passwordInput {
             margin-left: 1vw;
-            margin-top: 3vh
+            margin-top: 3vh;
+
+            @media screen and (max-width: 430px) {
+                margin-top: 1vh;
+                height: 2vh;
+                width: 25vw;
+                margin-left: 2vw;
+            }
+        }
+
+        @media screen and (max-width: 430px) {
+            width: 50vw;
+            height: 30vh;
+
+        }
+
+        @media screen and (max-width: 1024px) {
+            width: 50vw;
+            height: 30vh;
         }
 
     }
@@ -121,51 +230,16 @@
 //     -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
 //     animation: fadein 0.5s, fadeout 0.5s 2.5s;
 // }
-
-@-webkit-keyframes fadein {
-    from {
-        bottom: 0;
-        opacity: 0;
-    }
-
-    to {
-        bottom: 30px;
-        opacity: 1;
-    }
+.content {
+    margin-top: -5vh;
+    margin-left: -5vw;
 }
 
-@keyframes fadein {
-    from {
-        bottom: 0;
-        opacity: 0;
-    }
-
-    to {
-        bottom: 30px;
-        opacity: 1;
-    }
-}
-
-@-webkit-keyframes fadeout {
-    from {
-        bottom: 30px;
-        opacity: 1;
-    }
-
-    to {
-        bottom: 0;
-        opacity: 0;
-    }
-}
-
-@keyframes fadeout {
-    from {
-        bottom: 30px;
-        opacity: 1;
-    }
-
-    to {
-        bottom: 0;
-        opacity: 0;
-    }
+.getdatabtn {
+    border-radius: 5px;
+    background-color: #333;
+    color: aliceblue;
+    font-size: larger;
+    margin-top: 5vh;
+    margin-left: 90vw;
 }

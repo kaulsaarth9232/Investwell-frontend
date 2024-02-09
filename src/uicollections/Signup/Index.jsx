@@ -2,6 +2,7 @@ import React from 'react'
 import Signupform from './Signupform'
 import axios from 'axios'
 import { useState } from 'react';
+import '../../media/Scss/index.css';
 import { Link, useNavigate } from "react-router-dom";
 const Index = () => {
     const var1 = useNavigate();
