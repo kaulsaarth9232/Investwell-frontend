@@ -228,4 +228,97 @@
   font-size: larger;
   margin-top: 5vh;
   margin-left: 90vw;
+}
+
+.table {
+  width: 60vw;
+  height: 40vh;
+  margin-left: 20vw;
+}
+.table .btn {
+  width: 4vw;
+  color: black;
+  background-color: beige;
+  border-radius: 5px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.NavbarContent {
+  list-style: none;
+  margin-left: -2vw;
+  background-color: #f1f1f1;
+  height: 100vh;
+  width: 13vw;
+  margin-top: -3vh;
+  padding: 0;
+  position: fixed;
+}
+.NavbarContent .NavbarHome {
+  color: rgb(70, 67, 67);
+  font-size: larger;
+  margin-left: -3vw;
+  margin-top: 2vw;
+  padding: 1vh;
+}
+.NavbarContent .NavbarHome:hover {
+  background-color: #555;
+  color: white;
+}
+.NavbarContent .NavbarProfile {
+  color: rgb(70, 67, 67);
+  font-size: larger;
+  margin-left: -3vw;
+  margin-top: 2vw;
+  padding: 1vh;
+}
+.NavbarContent .NavImg {
+  margin-top: 2vh;
+  margin-left: -9vw;
+  height: 6vh;
+  border-radius: 50%;
+}
+.NavbarContent .NavbarProfile:hover {
+  background-color: #555;
+  color: white;
+}
+.NavbarContent .NavbarAttendance {
+  color: rgb(70, 67, 67);
+  font-size: larger;
+  margin-left: -3vw;
+  margin-top: 2vw;
+  padding: 1vh;
+}
+.NavbarContent .NavbarAttendance:hover {
+  background-color: #555;
+  color: white;
+}
+.NavbarContent .NavbarPolicy {
+  text-decoration: none;
+  color: rgb(70, 67, 67);
+  font-size: larger;
+  margin-left: -3vw;
+  margin-top: 2vw;
+  padding: 1vh;
+}
+.NavbarContent .NavbarPolicy:hover {
+  background-color: #555;
+  color: white;
+}
+
+.NavbarContent {
+  margin: 0;
+  padding: 0;
+}
+.NavbarContent.display {
+  visibility: visible;
+  background-color: white;
+}
+.NavbarContent.display .NavbarList {
+  visibility: hidden;
 }/*# sourceMappingURL=index.css.map */

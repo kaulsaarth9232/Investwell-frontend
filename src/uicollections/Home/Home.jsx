@@ -5,7 +5,7 @@ import { useState } from 'react';
 import axios from 'axios'
 import '../../media/Scss/index.css';
 import { redirect, useLocation, useNavigate } from 'react-router-dom'
-
+import NavbarComp from '../Navbar/Navbar'
 const Home = () => {
     const navigate = useNavigate();
 
@@ -33,9 +33,9 @@ const Home = () => {
     return (
         <>
             <div className="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <NavbarComp />
                 <div className="toast-header">
                 </div>
-
                 {toast && <div className="toastbody">
                     Login Successfull
                 </div>}
